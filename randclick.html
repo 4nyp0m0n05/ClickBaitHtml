@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>foobar</title>
+	</head>
+	<body>
+		
+		<div class="click" style="position:absolute;background-color:#bad455" >#####</div>
+	</body>
+	<script>
+		let a=document.querySelector('.click');
+		a.addEventListener("click",function(){
+			a.style.left=Math.floor((Math.random()*900)+1);			
+			a.style.top=Math.floor((Math.random()*500)+1);
+
+		});
+	</script>
+</html>
